@@ -7,6 +7,11 @@
 
 /* edit the body as you'd like, color, images, aligning */
 
+body {
+    text-align: center;
+    background-color: #27254c;
+}
+
 
 
 /*** TITLES ***/
@@ -15,6 +20,9 @@ h1 {
      If you decide not to duplicate & create your own,
      don't forget to change the font size */
     font-size: 112px;
+    color: #F2ECF8;
+    font-family: customfont;
+
 }
 
 h2 {
@@ -22,7 +30,8 @@ h2 {
      If you decide not to duplicate & create your own,
      don't forget to change the font size & family */
     font-size: 40px;
-    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-family: meanwhile;
+    color: #9B8AB4;
 }
 
 
@@ -47,6 +56,7 @@ p {
      If you decide not to duplicate & create your own,
      don't forget to change the font size */
     font-size: 25px;
+    color: #F2ECF8;
 }
 
 
