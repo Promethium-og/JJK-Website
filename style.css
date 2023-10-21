@@ -5,6 +5,8 @@
     --yellow: #fff54f;
 }
 
+
+
 /* edit the body as you'd like, color, images, aligning */
 
 body {
@@ -12,6 +14,17 @@ body {
     background-color: #27254c;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.column {
+    margin: 25px 0px;
+}
 
 
 /*** TITLES ***/
@@ -19,7 +32,7 @@ h1 {
     /* font size of text for walter white's activity.
      If you decide not to duplicate & create your own,
      don't forget to change the font size */
-    font-size: 112px;
+    font-size: 100px;
     color: #F2ECF8;
     font-family: jjkfont;
 
@@ -29,8 +42,7 @@ h2 {
     /* font size & family of text for walter white's activity.
      If you decide not to duplicate & create your own,
      don't forget to change the font size & family */
-    font-size: 40px;
-    font-family: meanwhile;
+    font-size: 35px;
     color: #9B8AB4;
 }
 
@@ -42,10 +54,15 @@ h2 {
      Hint: look into: display, flex-wrap
      justy-content, align-items, gap*/
 
-
-
 img {
-    height: 100px;
+    height: 200px;
+}
+
+#firstRow img,
+#secondRow img,
+#thirdRow img,
+#fourthRow img {
+    height: 300px;
 }
 
 
@@ -57,7 +74,12 @@ p {
      don't forget to change the font size */
     font-size: 25px;
     color: #F2ECF8;
+    margin: 50px;
 }
+
+
+
+
 
 
 
